@@ -1,0 +1,17 @@
+# build artifacts
+obj/
+*.o
+*.d
+main
+debug
+# simulator runtime outputs (keep the dirs, ignore contents)
+res/*
+stat/*
+!res/.gitkeep
+!stat/.gitkeep
+latency_dist.dat
+parameters_name.txt
+parameters_value.txt
+# session/editor artifacts
+.omc/
+.DS_Store
